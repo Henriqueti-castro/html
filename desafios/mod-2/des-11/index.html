@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    overflow:hidden;
+}
+
+.espaco{
+    position:relative;
+    width:100vw;
+    height:100vh;
+}
+
+.fundo{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.astronauta{
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%, -50%);
+
+    width:clamp(180px, 28vw, 420px);
+
+    height:auto;
+}
+    </style>
+</head>
+<body>
+
+    <main class="espaco">
+
+        <img src="imagens/espaco.jpg" alt="Espaço" class="fundo">
+
+        <img src="imagens/astronauta.png" alt="Astronauta" class="astronauta">
+
+    </main>
+
+</body>
+</html>
