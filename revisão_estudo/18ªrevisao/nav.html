@@ -29,6 +29,30 @@
             margin-left: auto;
             padding-right: 50px;
          }
+
+         header nav > a {
+            position: relative;
+            color:  white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 15px;
+            transition: width 0.5s ease;
+         }
+
+         header nav > a::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 1px;
+            background-color: white;
+            
+         }
+
+         header nav > a:hover {
+            width: 100%;
+         }
     </style>
 </head>
 <body>
