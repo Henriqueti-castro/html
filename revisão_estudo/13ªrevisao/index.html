@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        background-color: rgb(32, 31, 31);
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .contain{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 40px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+    }
+
+    .contain img{
+        border-radius: 10px;
+        background-color: white;
+        margin-left: 50px;
+    }
+
+    div img{
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    img:hover{
+        transform: scale(1.2);
+        background-color: gray;
+        box-shadow: 0px 0px 20px black;
+    }
+
+    
+</style>
+<body>
+    <h1>Back-end</h1>
+    <div class="contain">
+        <div>
+            <img src="imagem/c-pq.png" alt="c-pq">
+        </div>
+
+        <div>
+            <img src="imagem/java-pq.png" alt="java-pq">
+        </div>
+
+        <div>
+            <img src="imagem/js-pq.png" alt="js-pq">
+        </div>
+
+        <div>
+            <img src="imagem/php-pq.png" alt="php-pq">
+        </div>
+
+        <div>
+            <img src="imagem/python-pq.png" alt="python-pq">
+        </div>
+    </div>
+</body>
+</html>

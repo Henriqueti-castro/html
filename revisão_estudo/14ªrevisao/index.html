@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copa do mundo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: green;
+        }
+
+        .cards{
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            scrollbar-width: none;
+            margin-top: 225px;
+        }
+
+        .img{
+            padding: 30px;
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+
+        .img img{
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+        }
+
+        img:hover{
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+        <div class="cards">
+            <div class="img"><img src="img-sel/brasi.jpg"></div>
+            <div class="img"><img src="img-sel/alemanha.jpeg"></div>
+            <div class="img"><img src="img-sel/italia-.png"></div>
+            <div class="img"><img src="img-sel/argentina.jpg"></div>
+            <div class="img"><img src="img-sel/espanha.jpeg" alt="espanha-jpeg"></div>
+        </div>
+</body>
+</html>

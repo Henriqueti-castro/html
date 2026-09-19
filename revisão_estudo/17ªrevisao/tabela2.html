@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        table {
+            width: 800px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: gray;
+        }
+
+        table caption {
+            color: white;
+            background-color: #2c2c2c;
+            padding: 15px;
+        }
+
+        table .cate {
+            background-color: gray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        table td {
+            border: 1px solid black;
+            text-align: left;
+        }
+
+        table .sel {
+            width: 150px;
+        }
+
+        table .center {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>COPA DO MUNDO</caption>
+
+        <thead>
+            <tr>
+                <td class="cate">seleções</td>
+                <td class="cate" colspan="5">Vitórias</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="sel">BRASIL</td>
+                <td class="center">1958</td>
+                <td class="center">1962</td>
+                <td class="center">1970</td>
+                <td class="center">1994</td>
+                <td class="center">2002</td>
+            </tr>
+
+            <tr>
+                <td class="sel">ALEMANHA</td>
+                <td class="center">1954</td>
+                <td class="center">1974</td>
+                <td class="center">1990</td>
+                <td class="center">2014</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="sel">ITÁLIA</td>
+                <td class="center">1934</td>
+                <td class="center">1938</td>
+                <td class="center">1982</td>
+                <td class=" center">2006</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="sel">ARGENTINA</td>
+                <td class="center">1978</td>
+                <td class="center">1986</td>
+                <td class="center">2022</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="sel">ESPANHA</td>
+                <td class="center">2010</td>
+                <td class="center">2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

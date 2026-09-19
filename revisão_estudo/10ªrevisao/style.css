@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color: #232323;
+    color: #ffffff;
+    margin-bottom:200px;
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    box-shadow: 2px 2px 5px 2px #706e6e ;
+    padding: 20px;
+}
+
+main div{
+    background-color: gray;
+    margin: 30px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 48%;
+    position: relative;
+}
+
+div iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%
+}

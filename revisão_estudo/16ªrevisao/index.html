@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> transform and transition </title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            display: flex;
+            width: 700px;
+            background-color: gray;
+        }
+
+        .content {
+            background-color: #2b2b2b;
+            width: 300px;
+            height: 300px;
+        }
+
+        .container:hover > .extra {
+            background-color: #808080;
+            width: 1000px
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="content"></div>
+            <div class="extra"></div>
+        </div>
+</body>
+</html>

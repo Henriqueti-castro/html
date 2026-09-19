@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+}
+
+:root{
+    --cor1: #2B2B2B;
+    --cor2: #ffffff;
+    --cor3: #000000;
+    --cor4: #D8EFEF;
+    --cor5: #444444;
+    --cor6: #E8EAEB;
+    --cor7: #800000;
+}
+
+@font-face{
+    font-family:'Forum';
+    src: url(font/Forum-Regular.ttf) format(TrueType);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-color: var(--cor1);
+    padding: 8px;
+}
+
+.div-Ti{
+    color: var(--cor2);
+    font-family: "Forum";
+    margin-left: 100px;
+}
+
+.nav-link{
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 1px 3px var(--cor3);
+}
+
+.div-a{
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.div-a > a{
+    text-decoration: none;
+    font: normal bolder 16px 'Forum';
+    padding: 10px;
+
+}
+
+.div-a > a:link{
+    color: var(--cor5);
+}
+
+.div-a > a:hover{
+    background-color: var(--cor6);
+    padding: 10px;
+}
+
+.div-a > a:visited{
+    color: var(--cor7);
+}
+
+.div-a > a:active{
+    color: var(--cor3);
+}
+
+h2::before{
+    content: '🎵';
+}
+
+h2::after{
+    content: '🎵';
+}
+
+ol > li::after{
+    content: '🎶';
+}
+
+.audio1{
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: var(--cor1);
+    width: 400px;
+    padding: 20px;
+}
+
+.audio2{
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: var(--cor1);
+    width: 400px;
+    padding: 20px;
+}
+
+.audio3{
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: var(--cor1);
+    width: 400px;
+    padding: 20px;
+}
+
+.h2-font{
+    font: normal bold 'Forum';
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.h2-font::after{
+    content: '📓';
+}
+
+.h2-font::before{
+    content: '📓';
+}
+
+.div-font{
+    font-family: 'Forum';
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 200px;
+}
+
+.div-font > p::after{
+    content: '📓';
+}
+
+.h2-img{
+    font: normal bold 'Forum';
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.h2-img::after{
+    content: '🌴☀️🌿🍃';
+}
+
+.h2-img::before{
+    content: '🌴☀️🌿🍃';
+}
+
+.h2-img{
+    margin-bottom: 90px;
+}
+
+.h2-link{
+    font: normal bold 'Forum';
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.h2-link::after{
+    content: '➡️';
+}
+
+.h2-link::before{
+    content: '➡️';
+}
+
+ul{
+    font: normal bold 'Forum';
+    margin-left: 200px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+ul > li::after{
+    content: '➡️';
+}
+
+.h2-cla{
+    font: normal bold 'Forum';
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.h2-cla::after{
+    content: '🔗';
+}
+
+.h2-cla::before{
+    content: '🔗';
+}
+
+#ul-3 > li::after{
+    content: '🔗';
+}
+
+#ul-3 > li > a:link{
+    color: var(--cor5);
+}
+
+#ul-3 > li > a:hover{
+    color: var(--cor7);
+}
+
+#ul-3 > li > a:visited{
+    color: var(--cor1);
+}
+
+#ul-3 > li > a:active{
+    color: var(--cor3);
+}
+
+.h2-ele{
+    font: normal bold 'Forum';
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.h2-ele::after{
+    content: '🔜';
+}
+
+.h2-ele::before{
+    content: '🔙';
+}
+
+#ul-4 > li::after{
+    content: '🔜';
+}
+
+#ul-4 > li::before{
+    content: '🔙';
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}

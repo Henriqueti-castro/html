@@ -1,0 +1,28 @@
+
+        p > em{
+            background-color: #ffa500;
+        }
+
+        .negrito_red{
+            background-color: #ff0000;
+        }
+
+        #pequeno_gray{
+            background-color: #808080;
+        }
+
+        ins{
+            background-color: #ffc0cb;
+        }
+
+        del{
+            background-color: #800080;
+        }
+
+        code{
+            background-color: #008080;
+        }
+
+        #cit_sim{
+            background-color: #00ffff;
+        }
