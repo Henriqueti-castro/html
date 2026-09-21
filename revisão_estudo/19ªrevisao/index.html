@@ -11,19 +11,12 @@
             box-sizing: border-box;
         }
 
-        html, body {
-    max-width: 100%;
-    
-}
+        body {
+            position: relative;
+            background-color: #272727;
+        }
 
-body {
-    position: relative;
-    background-color: var(--cor5);
-    width: 100%;
-    cursor: pointer;
-}
-
-body::before {
+        body::before {
   content: "";
   position: fixed;
   inset: -10%;
@@ -40,10 +33,9 @@ body::before {
 0% { transform: translate3d(0, 0, 0) scale(1);
  }
 
-100% { transform: translate3d(2%, -3%, 0) scale(1.06); 
+100% { transform: translate3d(2%, -5%, 0) scale(2); 
 }
 }
-
     </style>
 </head>
 <body>
