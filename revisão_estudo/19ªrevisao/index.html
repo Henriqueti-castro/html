@@ -11,9 +11,39 @@
             box-sizing: border-box;
         }
 
-        body {
-            background: color(#2b2b2b);
-        }
+        html, body {
+    max-width: 100%;
+    
+}
+
+body {
+    position: relative;
+    background-color: var(--cor5);
+    width: 100%;
+    cursor: pointer;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -10%;
+  z-index: -1;
+  background:
+    radial-gradient(38% 30% at 15% 12%, rgba(255, 106, 94, 0.26), transparent 60%),
+    radial-gradient(45% 35% at 85% 8%, rgba(155, 140, 255, 0.24), transparent 65%),
+    radial-gradient(40% 40% at 50% 100%, rgba(111, 211, 199, 0.20), transparent 70%);
+  animation: aurora-drift 0.5s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes aurora-drift {
+0% { transform: translate3d(0, 0, 0) scale(1);
+ }
+
+100% { transform: translate3d(2%, -3%, 0) scale(1.06); 
+}
+}
+
     </style>
 </head>
 <body>
