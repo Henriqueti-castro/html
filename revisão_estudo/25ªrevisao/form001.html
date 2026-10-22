@@ -14,7 +14,7 @@
     <h1> INPUTS </h1>
 
     <form action="cadastro.php" method="POST" autocomplete="on">
-        <h2> input:text, input:reset, input:submit </h2>
+        <h2> input:text </h2>
 
         <p>
             <label for="inome">Nome:</label>
@@ -31,6 +31,13 @@
         <p>
             <label for="isen">Senha:</label>
             <input type="password" name="senha" id="isen" placeholder="Digite sua senha" size="30" autocomplete="current-password" minlength="5" maxlength="10" required>
+        </p>
+
+        <h2> input:number </h2>
+
+        <p>
+            <label for="inum">Média:</label>
+            <input type="number" name="numero" id="inum" value="2" step="0.5" min="2" max="10">
         </p>
 
         <p>
