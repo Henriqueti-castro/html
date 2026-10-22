@@ -12,9 +12,10 @@
 </head>
 <body>
     <h1> INPUTS </h1>
-    <h2> input:text, input:reset, input:submit </h2>
 
     <form action="cadastro.php" method="POST" autocomplete="on">
+        <h2> input:text, input:reset, input:submit </h2>
+        
         <p>
             <label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome" placeholder="Informe seu nome" size="35" autocomplete="username" required>
@@ -25,14 +26,13 @@
             <input type="text" name="sobrenome" id="isobre" placeholder="Informe seu sobrenome" size="35" autocomplete="username" required>
         </p>
 
+        <h2> input:password </h2>
+
         <p>
-            <input type="reset" value="Limpar">
-            <input type="submit" value="Enviar">
+            <label for="isen">Senha:</label>
+            <input type="password" name="senha" id="isen" placeholder="Digite sua senha" size="30" autocomplete="current-password" minlength="5" maxlength="10" required>
         </p>
+
     </form>
-
-    <h2> input:password </h2>
-
-    <form action=""></form>
 </body>
 </html>
