@@ -8,10 +8,20 @@
 <body>
     <h1> Exemplo de Formulário </h1>
 
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="imail">Email:</label>
-            <input type="email" name="email" id="imail">
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" placeholder="" autocomplete="email" required>
+        </p>
+
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel">
+        </p>
+
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
         </p>
     </form>
 </body>
