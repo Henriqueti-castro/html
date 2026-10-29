@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Exemplo do uso de Selected</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="get">
         <select name="option">
             <optgroup label="HARDWARE">
                 <option value="PLACA">Placa de Vídeo</option>
@@ -29,5 +29,14 @@
     </form>
 
     <h1>Exemplo de Datalist</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="dev">Linguagens:</label>
+            <input type="text" name="linguagem" id="dev" list="lst">
+            <datalist id="lst">
+
+            </datalist>
+        </p>
+    </form>
 </body>
 </html>
