@@ -8,8 +8,12 @@
 <body>
     <form action="cadastro.php" method="get" autocomplete="on">
         <label for="ihar">HARDWARE</label>
-        <input type="text" name="har" id="ihar">
-        <datalist id=""></datalist>
+        <input type="text" name="har" id="ihar" list="lst">
+        <datalist id="lst">
+            <option value="pl">Placa de Vídeo</option>
+            <option value="Sd">SSD</option>
+            <option value="H">HD</option>
+        </datalist>
     </form>
 </body>
 </html>
